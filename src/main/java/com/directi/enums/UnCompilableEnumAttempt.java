@@ -1,6 +1,7 @@
 package com.directi.enums;
 
-public class UnCompilableEnumAttempt extends Enum<UnCompilableEnumAttempt> {
+public class UnCompilableEnumAttempt {//extends Enum<UnCompilableEnumAttempt> {
+
     /**
      * Sole constructor.  Programmers cannot invoke this constructor.
      * It is for use by code emitted by the compiler in response to
@@ -12,6 +13,6 @@ public class UnCompilableEnumAttempt extends Enum<UnCompilableEnumAttempt> {
      *                in the enum declaration, where the initial constant is assigned
      */
     protected UnCompilableEnumAttempt(String name, int ordinal) {
-        super(name, ordinal);
+//        super(name, ordinal);
     }
 }
